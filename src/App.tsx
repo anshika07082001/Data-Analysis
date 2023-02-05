@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import FileRead from './components/FileRead';
+import ConditionGenerator from './components/ConditionGenerator';
 
 function App() {
   return (
     <div className='text-center bg-primary-subtle'>
-      <FileRead/>
+      <ConditionGenerator/>
     </div>
   )
 }
